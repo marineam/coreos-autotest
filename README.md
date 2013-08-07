@@ -24,6 +24,7 @@ Until we integrate autotest into our build process we setup autotest ourselves.
 	`chown -tR autotest:autotest /usr/local/autotest`
 
 4. Give autotest a home dir and .ssh dir
+
 	`mkdir -p /home/autotest/.ssh`
 
 5. As autotest, create a passwordless ssh-key pair and copy it to the image
