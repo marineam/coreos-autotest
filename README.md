@@ -7,12 +7,12 @@ Setting up autotest with CoreOS
 -------------------------------
 Until we integrate autotest into our build process we setup autotest ourselves.
 
-1. Create an autotest user in the chroot:
+1. Create an autotest user in the chroot
 	```
 	sudo useradd autotest
 	sudo passwd autotest
 	```
-2. As root clone autotest into /usr/local/
+2. As root clone autotest into /usr/local
 	```
 	sudo su -
 	cd /usr/local
