@@ -28,7 +28,7 @@ Until we integrate autotest into our build process we setup autotest ourselves.
    	Boot your CoreOS VM, then
 	```
 	su autotest
-	ssh-keygen -t rsa    Note: make this passwordless
+	ssh-keygen -t rsa
 	ssh-copy-id "core@127.0.0.1 -p 9222"
 	Then enter the core user's password
 	```
