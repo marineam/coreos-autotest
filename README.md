@@ -10,7 +10,7 @@ Until we integrate autotest into our build process we setup autotest ourselves.
 1. Create an autotest user in the chroot:
 	```
 	sudo useradd autotest
-	sudo passwd autotest -> something like test0000
+	sudo passwd autotest
 	```
 2. As root clone autotest into /usr/local/
 	```
