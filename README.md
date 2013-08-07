@@ -30,7 +30,6 @@ Until we integrate autotest into our build process we setup autotest ourselves.
 	su autotest
 	ssh-keygen -t rsa
 	ssh-copy-id "core@127.0.0.1 -p 9222"
-	Then enter the core user's password
 	```
 6. Testing should now work as the autotest user.  To confirm...
 	```
