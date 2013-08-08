@@ -47,6 +47,12 @@ Until we integrate autotest into our build process we setup autotest ourselves.
 	git clone https://github.com/coreos/coreos-autotest.git
 	```
 
+8. Currently we have to copy all the tests into the autotest tests dir
+	```
+	cd /usr/local/autotest/client/coreos-autotest
+	cp -r * ../tests/
+	```
+
 8. To test this works:
-	`server/autotest-remote -m 127.0.0.1 -c client/coreos-autotest/docker/control --ssh-user core --ssh-port 9222`
+	`server/autotest-remote -m 127.0.0.1 -c client/tests/docker/control --ssh-user core --ssh-port 9222`
 
