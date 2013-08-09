@@ -59,3 +59,4 @@ Until we integrate autotest into our build process we setup autotest ourselves.
 8. To test this works:
 	`server/autotest-remote -m 127.0.0.1 -c client/tests/docker/control --ssh-user core --ssh-port 9222`
 
+9. Note: for production images with read only fs, you currently need to create a /home/autotest dir on the client and chown it to core
