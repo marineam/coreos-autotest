@@ -25,7 +25,10 @@ Until we integrate autotest into our build process we setup autotest ourselves.
 
 4. Give autotest a home dir and .ssh dir
 
-	`mkdir -p /home/autotest/.ssh`
+	```
+	mkdir -p /home/autotest/.ssh
+	chorn autotest --recursive /home/autotest
+	```
 
 5. As autotest, create a passwordless ssh-key pair and copy it to the image
    	Boot your CoreOS VM, then
