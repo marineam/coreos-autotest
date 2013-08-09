@@ -10,4 +10,4 @@ class updateengine(test.test):
 
     def run_once(self, update_url="https://api.core-os.net/v1/update/"):
         utils.system("update_engine_client -omaha_url " + update_url)
-	utils.system("/usr/local/autotest/tmp/site_tests/updateengine/dbus")
+	utils.system(self.srcdir + "/../../site_tests/updateengine/dbus")

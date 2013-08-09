@@ -9,7 +9,7 @@ class successfulupdate(test.test):
     version = 1
 
     def run_once(self):
-    	utils.system("mv /usr/local/autotest/tmp/site_tests/successfulupdate/reboottesting.service /media/state/units/")
+    	utils.system("cp " + self.srcdir + "/../../site_tests/successfulupdate/reboottesting.service /media/state/units/")
 	utils.system("sudo cgpt add -i 3 -P 5 /dev/sda")
 
 	#TODO change to prod update service
