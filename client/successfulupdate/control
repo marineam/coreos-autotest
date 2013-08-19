@@ -1,0 +1,13 @@
+AUTHOR = "Joshua Deare"
+NAME = "Successful Update Check"
+TIME = "SHORT"
+TEST_CATEGORY = "Functional"
+TEST_CLASS = "General"
+TEST_TYPE = "server"
+
+DOC = """
+This test confirms that updates are applying correctly
+"""
+
+job.run_test("successfulupdate")
+

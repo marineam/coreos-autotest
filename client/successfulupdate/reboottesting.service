@@ -1,0 +1,9 @@
+[Unit]
+Description=Reboot Into Testing Partition
+
+[Service]
+ExecStart=/usr/bin/systemctl reboot
+ExecStartPost=/bin/rm /media/state/units/reboottesting.service
+
+[Install]
+WantedBy=local.target

@@ -1,0 +1,13 @@
+AUTHOR = "Joshua Deare"
+NAME = "Update Engine Test"
+TIME = "SHORT"
+TEST_CATEGORY = "Functional"
+TEST_CLASS = "General"
+TEST_TYPE = "server"
+
+DOC = """
+This test confirms the update_engine dbus is up and running properly
+"""
+
+job.run_test("updateengine")
+
