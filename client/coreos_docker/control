@@ -1,0 +1,12 @@
+AUTHOR = "Josh Deare"
+NAME = "Docker init test"
+TIME = "SHORT"
+TEST_CATEGORY = "Functional"
+TEST_CLASS = "General"
+TEST_TYPE = "client"
+
+DOC = """
+This test ensures docker is running correctly
+"""
+
+job.run_test('docker')
