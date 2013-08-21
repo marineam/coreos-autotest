@@ -1,5 +1,5 @@
 AUTHOR = "Joshua Deare"
-NAME = "ETCD Test"
+NAME = "etcd Test"
 TIME = "SHORT"
 TEST_CATEGORY = "Functional"
 TEST_CLASS = "General"
