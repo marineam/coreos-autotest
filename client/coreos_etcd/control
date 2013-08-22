@@ -1,12 +1,13 @@
 AUTHOR = "Joshua Deare"
-NAME = "SSH Test"
+NAME = "etcd Test"
 TIME = "SHORT"
 TEST_CATEGORY = "Functional"
 TEST_CLASS = "General"
 TEST_TYPE = "client"
 
 DOC = """
-This test confirms running sshd on the target system.
+This test confirms etcd is up and running properly
 """
 
-job.run_test('sshtest')
+job.run_test("etcd")
+
